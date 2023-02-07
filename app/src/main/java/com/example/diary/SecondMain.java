@@ -8,7 +8,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondMain extends AppCompatActivity {
     TextView todaydate;
 
     @Override
