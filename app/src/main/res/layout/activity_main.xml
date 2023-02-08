@@ -13,7 +13,7 @@
         android:textSize="40dp"
         android:gravity="center"
         android:layout_margin="20dp"
-        android:id="@+id/todayDate"
+        android:id="@+id/date"
         />
 
     <EditText
@@ -23,14 +23,14 @@
         android:layout_weight="1"
         android:hint="제목을 입력해주세요."
         android:privateImeOptions="defaultInputmode=korean" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8"
-        android:hint="내용을 입력 해주세요."
+        android:layout_weight="7.5"
         android:gravity="center"
-        android:privateImeOptions="defaultInputmode=korean"
-        />
+        android:hint="내용을 입력 해주세요."
+        android:privateImeOptions="defaultInputmode=korean" />
 
     <Button
         android:layout_width="132dp"
