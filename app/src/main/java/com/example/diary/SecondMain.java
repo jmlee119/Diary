@@ -22,14 +22,4 @@ public class SecondMain extends AppCompatActivity {
         Intent intent = getIntent();
         date.setText(intent.getStringExtra("SelectedDate"));
     }
-
-
-//   오늘 날짜 부르는 법
-//    private String getTime() {
-//        long now = System.currentTimeMillis();
-//        Date date = new Date(now);
-//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-//        String getTime = dateFormat.format(date);
-//        return getTime;
-//    }
 }
