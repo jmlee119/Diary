@@ -3,31 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginBottom="50dp"
+    android:layout_marginBottom="10dp"
     >
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="날짜 출력"
-        android:textSize="40dp"
-        android:gravity="center"
-        android:layout_margin="20dp"
         android:id="@+id/date"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="날짜 출력"
+        android:textSize="40dp" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="20dp"
-        android:layout_weight="1"
         android:hint="제목을 입력해주세요."
         android:privateImeOptions="defaultInputmode=korean" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="7.5"
+        android:layout_height="469dp"
+
         android:gravity="center"
         android:hint="내용을 입력 해주세요."
         android:privateImeOptions="defaultInputmode=korean" />
